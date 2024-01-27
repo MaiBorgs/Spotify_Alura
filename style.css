@@ -58,6 +58,7 @@ body{
 
 }
 .library .library__button{
+    display: flex;
     margin-right: 10px;
     color: #b3b3b3;
     background-color: transparent;
@@ -69,5 +70,14 @@ body{
    text-decoration: none;
    text-transform: none;
    padding: 20px 10px;
-   display: flex;
+}
+.library .library__button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px ;
+}
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+
 }
